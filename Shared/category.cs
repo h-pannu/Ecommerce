@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.Shared
 {
-    public class category
+    public class Category
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;

@@ -10,20 +10,20 @@ namespace Ecommerce.Server.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<category>().HasData(
-                new category
+            modelBuilder.Entity<Category>().HasData(
+                new Category
                 {
                     Id = 1,
                     Name="Books",
                     Url="Books",
                 },
-                new category
+                new Category
                 {
                     Id = 2,
                     Name = "Movies",
                     Url = "Movies",
                 },
-                new category
+                new Category
                 {
                     Id = 3,
                     Name = "Video Games",
@@ -129,6 +129,6 @@ namespace Ecommerce.Server.Data
         }
 
         public DbSet<Product> Products { get; set; }
-        public DbSet<category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }

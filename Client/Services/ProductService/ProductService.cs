@@ -1,5 +1,4 @@
-﻿
-namespace Ecommerce.Client.Services.ProductServices
+﻿namespace Ecommerce.Client.Services
 {
     public class ProductService : IProductService
     {
