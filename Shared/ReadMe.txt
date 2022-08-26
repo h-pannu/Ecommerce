@@ -19,3 +19,6 @@ PM> dotnet ef database update //Update database from migration
 
 PM> dotnet ef migrations add SeedMoreProducts // seed more products
 PM> dotnet ef database update      //Update database from migration
+
+PM> dotnet ef migrations add ProductVariants 
+PM> dotnet ef database update
