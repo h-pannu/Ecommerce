@@ -22,3 +22,6 @@ PM> dotnet ef database update      //Update database from migration
 
 PM> dotnet ef migrations add ProductVariants 
 PM> dotnet ef database update
+
+PM> dotnet ef migrations add FeaturedProducts
+PM> dotnet ef database update
